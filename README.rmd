@@ -12,7 +12,7 @@ Steps for Bayesian estimation of theta and alpha (see tutorial for more details)
 ## Installing R package GppFst from github
 *** IMPORTANT: ThetaMater was written using R.3.3.3. We recommend using this version of R to ensure that the underlying c++ functions will operate correctly (this version of Rcpp works best with R.3.3.3). If you discover memory errors (Rstudio unexpectedly closeles, segmental fault errors, etc.) when attempting to run ThetaMater, please reinstall R.3.3.3 and this should correct any issues. Contact the author (radams@uta.edu) if any memory errors associated with c++ and Rcpp arise when using ThetaMater. R version 3.3.3 can be download here: https://cran.r-project.org/bin/macosx/. These packages will be updated in the future for further support in updated R versions. ***
 
-*** ThetaMater require the Boost c++ libraries to be installed for the fast calculation of the underlying likelihood functions. Installed the latest version of the Boost c++ libraries here:
+*** ThetaMater require the Boost c++ libraries to be installed for the fast calculation of the underlying likelihood functions. I recommend install the Boost libraries using brew for Mac systems (brew install boost). The latest version of the Boost c++ libraries here:
 https://www.boost.org
 *** 
 
