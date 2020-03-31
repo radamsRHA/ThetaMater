@@ -14,7 +14,7 @@ Steps for Bayesian estimation of theta and alpha (see tutorial for more details)
 ***
 
 *** ThetaMater require the Boost c++ libraries to be installed for the fast calculation of the underlying likelihood functions. I recommend install the Boost libraries using brew for Mac systems (brew install boost). The latest version of the Boost c++ libraries here:
-https://www.boost.org
+https://www.boost.org. You can also install boost libraries by installing brew and using the command `brew update` and then `brew install boost` 
 *** 
 
 The R package ThetaMater is freely available to download and distribute from github <https://github.com/radamsRHA/ThetaMater/>. To install and load ThetaMater, you must first install the R packages `devtools`, `Rcpp`, and `MCMCpack`. Additionally, make sure the most updated version of R version 3.3.3 is installed (see above warning). Download R version 3.3.3 here: https://cran.r-project.org/bin/macosx/.
