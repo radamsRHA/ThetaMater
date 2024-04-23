@@ -1,0 +1,13 @@
+Package: ThetaMater
+Title: ThetaMater: Bayesian estimation of the population size parameter theta from genomic data
+Version: 0.0.0.9000
+Authors@R: person("Rich Adams, Drew Schield, Daren Card, Todd Castoe", "X", email = "radams@uta.edu", role = c("aut", "cre"))
+Description: ThetaMater contains multiple R functions for (1) reading next-generation genomic data and (2) Bayesian estimation the population parameter theta and the shape parameter alpha of among-locus variation from multilocus datasets
+Depends:
+    R (>= 3.3.2)
+License: What license is it under?
+LinkingTo: Rcpp
+Imports: Rcpp
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 5.0.1
